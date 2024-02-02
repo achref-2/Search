@@ -18,7 +18,7 @@ const fetchCountries = async () => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '2f24ab8f79msh9947d3c74067c97p11ef2djsnd4b048614de1',
+            'X-RapidAPI-Key': 'API KEY',
             'X-RapidAPI-Host': 'booking-com15.p.rapidapi.com'
         }
     };
@@ -41,7 +41,7 @@ const fetchHotels=async() => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '2f24ab8f79msh9947d3c74067c97p11ef2djsnd4b048614de1',
+            'X-RapidAPI-Key': 'API KEY',
             'X-RapidAPI-Host': 'booking-com15.p.rapidapi.com'
         }
     };
@@ -55,7 +55,7 @@ const fetchHotels=async() => {
     }
 } 
 fetchHotels();
-API='2f24ab8f79msh9947d3c74067c97p11ef2djsnd4b048614de1';
+API='API KEY';
 /*
 async function getMarkers(country) {
     API='2f24ab8f79msh9947d3c74067c97p11ef2djsnd4b048614de1';
