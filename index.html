@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Google Map</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="mapContainer"></div>
+        <div class="bst-sidebar flex-column left-div">
+            <div class="bst-filter">
+                <form action="" id="input_search" class="flex-column">
+                    <header>
+                        <h1>Rech</h1>
+                        <h2>Find</h2>
+                    </header>
+                    <input type="text" id="search" placeholder="Country" />
+                    <ul id="auto_suggest_list"></ul>
+                    <input type="text" id="languages_input" placeholder="Country">
+                    <ul id="languages_list"></ul>
+                    <button type="submit" id="submit" class="lis-primary-btn">search</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCw3wbP1N1aWaVz_u6FKJsMbP4XPKCSt-I&callback=initMap">
+</script>
+</body>
+
+</html>
+
+    
+    
+    
+   
